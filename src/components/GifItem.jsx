@@ -11,12 +11,9 @@ export const GifItem = ({ title, url, id }) => {
 }
 
 GifItem.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
 }
 
-GifItem.defaultProps = {
-  title: 'No hay titulo',
-  url: 'No hay url',
-}
+
     
